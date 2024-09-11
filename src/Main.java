@@ -17,6 +17,40 @@ class Favourites{
         System.out.println("1 little brother");
         System.out.println("I want to learn programming");
         System.out.println("");
+        System.out.println("\n\n\n\n"+"By Dr.Seuss");
+        System.out.println("One Fish" +
+                "\n" +
+                "<)))>< \n" +
+                "\n" +
+                "Two Fish" +
+                "\n" +
+                "><)))> \n" +
+                "\n" +
+                "Red Fish" +
+                "\n" +
+                "<)))>< \n" +
+                "\n" +
+                "Blue Fish" +
+                "\n" +
+                "><)))> "+"\n\n\n");
+        System.out.println(" .-^-. " +
+                "\n" +
+                "'\"'|`\"`" +
+                "\n" +
+                "   j "+"\n\n\n");
+        System.out.println("  \\\\ " +
+                "\n" +
+                "   \\\\_  " +
+                "\n" +
+                "   ( _\\ " +
+                "\n" +
+                "   / \\__     " +
+                "\n" +
+                "   / _/`\"` " +
+                "\n" +
+                "  {\\  )_ " +
+                "\n" +
+                "  `\"\"\"` ");
     }
 
 }
