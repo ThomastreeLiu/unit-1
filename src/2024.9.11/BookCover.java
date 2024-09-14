@@ -1,7 +1,7 @@
 public class BookCover {
 
         public static void main (String args[]){
-            System.out.println("One Fish" +
+            System.out.println("By Dr. Seuss\n"+"One Fish" +
                     "\n" +
                     "<)))>< \n" +
                     "\n" +
