@@ -69,6 +69,18 @@ public class Output {
         String course = input.nextLine();
         System.out.println ("You answered: " + course);
         System.out.println ("");
-        //第九段
+        //第十段
+
+        System.out.print ("Who is your hero");
+        String hero = input.nextLine();
+        System.out.println ("You answered: " + hero);
+        System.out.println ("");
+        //第十一段
+
+        System.out.print ("What did you do this summer? ");
+        String summer = input.nextLine();
+        System.out.println ("You answered: " + summer);
+        System.out.println ("");
+        //第十段
     }
 }
