@@ -1,5 +1,3 @@
-
-
 import java.util.Scanner;
 //使系统输入可用
 public class Output {
