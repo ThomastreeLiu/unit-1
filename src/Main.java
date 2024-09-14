@@ -13,7 +13,7 @@ class Favourites{
         System.out.println("badminton");
         System.out.println("How it works");
         System.out.println("science");
-        System.out.println("Los anglelas");
+        System.out.println("Los Angeles");
         System.out.println("1 little brother");
         System.out.println("I want to learn programming");
         System.out.println("learn something");
