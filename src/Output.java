@@ -44,7 +44,7 @@ public class Output {
         System.out.println ("");
         //第六段
 
-        System.out.println("Now, let's ask some more interesting problem.");
+        System.out.println("Now, let's ask some more interesting questions.");
         //问题分割
 
         System.out.print ("Do you like computer coding?");
