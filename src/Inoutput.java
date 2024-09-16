@@ -1,6 +1,6 @@
 import java.util.Scanner;
 //使系统输入可用
-public class Output {
+public class Inoutput {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
