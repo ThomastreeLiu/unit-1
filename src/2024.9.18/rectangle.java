@@ -11,8 +11,8 @@ public class rectangle {
             double width = scan.nextDouble();
             double area = length*width;
             double perimeter = 2*length+2*width;
-            System.out.println("The area of this rectangle is "+area+" meters\n");
-            System.out.println("The perimeter of this rectangle is "+perimeter+" meters");
+            System.out.println("The area of this rectangle is "+area+" square meters.\n");
+            System.out.println("The perimeter of this rectangle is "+perimeter+" meters.");
 
 
         }
