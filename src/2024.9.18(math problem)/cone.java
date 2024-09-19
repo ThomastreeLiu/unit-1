@@ -8,7 +8,7 @@ public class cone {
                 "Now input the radius of the cone in meter.\n");
 
         double radius = scan.nextDouble();
-        System.out.println("Now input the height of the cone");
+        System.out.println("Now input the height of the cone in meters");
         double height = scan.nextDouble();
 
         double SA = (Math.pow(Math.pow(radius,2)+Math.pow(height,2), (double) 1 /2)+radius)*Math.PI*radius;
