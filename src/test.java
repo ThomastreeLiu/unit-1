@@ -2,8 +2,9 @@ import java.util.Scanner;
 public class test {
     public static void main (String args []){
 
-        double SA = (Math.sqrt(2)+1)*Math.PI*1;
-        System.out.println(SA);
+        double sqrt = (Math.sqrt(2))*Math.PI;
+        double pow = (Math.pow(2, (double) 1 /2))*Math.PI;
+        System.out.println(sqrt+"\n"+pow);
 
 
     }
