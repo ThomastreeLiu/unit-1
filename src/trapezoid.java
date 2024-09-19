@@ -14,9 +14,12 @@ public class trapezoid {
         double c = scan.nextDouble();
         System.out.println("Now input the d in meters");
         double d = scan.nextDouble();
-        //double area = Math.pow(radius,2)*Math.PI;
-        //double circumference = radius*Math.PI*2;
-        //System.out.println("Area of the circle is "+area+"\nCircumference of the circle is "+circumference);
+        System.out.println("Now input the h in meters");
+        double h =scan.nextDouble();
+        double area = (a+b)*h/2;
+        double perimeter = a+b+c+d;
+        System.out.println("Area of the trapezoid is "+area+" square meters.\n" +
+                "Perimeter of the trapezoid is "+perimeter+" meters.");
 
 
     }
