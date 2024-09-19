@@ -2,10 +2,8 @@ import java.util.Scanner;
 public class test {
     public static void main (String args []){
 
-        Scanner scan = new Scanner(System.in);
-        double alpha = scan.nextDouble();
-        double beta = alpha*0.5;
-        System.out.println(beta);
+        double SA = (Math.sqrt(2)+1)*Math.PI*1;
+        System.out.println(SA);
 
 
     }
