@@ -1,3 +1,7 @@
+//Author:Thomas
+//Name:Cone
+//purpose:Calculate the volume & surface area of a cone
+
 import java.util.Scanner;
 
 public class cone {

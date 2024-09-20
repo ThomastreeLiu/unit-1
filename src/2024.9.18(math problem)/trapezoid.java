@@ -1,3 +1,7 @@
+//Author:Thomas
+//Name:Trapezoid
+//Purpose:Calculate the area & perimeter of a trapezoid
+
 import java.util.Scanner;
 
 public class trapezoid {

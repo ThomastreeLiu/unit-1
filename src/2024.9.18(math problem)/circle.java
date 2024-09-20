@@ -1,3 +1,7 @@
+//Author:Thomas
+//Name:circle
+//Purpose:Calculate the area & circumference of a circle
+
 import java.util.Scanner;
 
 public class circle {

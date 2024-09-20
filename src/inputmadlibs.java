@@ -1,3 +1,7 @@
+//Author:Thomas
+//Name:madlibs
+//purpose:filling blanks
+
 import java.util.Scanner;
 
 public class inputmadlibs {

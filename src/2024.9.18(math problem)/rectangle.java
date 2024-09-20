@@ -1,8 +1,12 @@
+//Author:Thomas
+//Name:rectangle
+//Purpose:Calculate the area & perimeter of the rectangle
+
 import java.util.Scanner;
 
 public class rectangle {
         public static void main (String args []){
-            System.out.println("Calculate the area & perimeter\n"+"Now input the length in meter\n");
+            System.out.println("Calculate the area & perimeter of the rectangle\n"+"Now input the length in meter\n");
             Scanner scan = new Scanner(System.in);
             double length = scan.nextDouble();
             System.out.println("Now input the width in meter\n");
