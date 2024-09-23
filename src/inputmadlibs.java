@@ -19,7 +19,12 @@ public class inputmadlibs {
 
         String num = scan.nextLine();
 
-        System.out.println("Enter a : ");
+        System.out.println("There're a lot of "+adj+" ways to get to school. " +
+                "Here's a list of the top "+num+".");
+        //introduction end
+
+
+       /* System.out.println("Enter a type of building ");
 
         String col2 = scan.nextLine();
 
@@ -37,6 +42,6 @@ public class inputmadlibs {
         System.out.println("A Strange Animal");
 
         System.out.println("The "+madeup+" is an animal that has "+col+" fur with "+col2); System.out.println("spots on its tail. An adult "+madeup+" may weigh over "+num); System.out.println("pounds and stand over "+num2+" feet tall.");
-
+*/
     }
 }
