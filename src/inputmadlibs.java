@@ -9,39 +9,73 @@ public class inputmadlibs {
 
         Scanner scan = new Scanner(System.in);
 
-//this is just an example to help you understand what is required
-
         System.out.println("Enter a adjective: ");
-
-        String adj = scan.nextLine();
+        String I = scan.nextLine();
 
         System.out.println("Enter a number: ");
+        String II = scan.nextLine();
 
-        String num = scan.nextLine();
-
-        System.out.println("There're a lot of "+adj+" ways to get to school. " +
-                "Here's a list of the top "+num+".");
+        String IP = ("There're a lot of "+I+" ways to get to school. " +
+                "Here's a list of the top "+II+".");
         //introduction end
 
 
-       /* System.out.println("Enter a type of building ");
+        System.out.println("Enter a type of building ");
+        I = scan.nextLine();
 
-        String col2 = scan.nextLine();
+        System.out.println("Enter a type of food ");
+        II = scan.nextLine();
 
-        System.out.println("Enter a number: ");
+        System.out.println("Enter a plural noun ");
+        String III = scan.nextLine();
 
-        String num = scan.nextLine();
+        System.out.println("Enter a verb");
+        String IV = scan.nextLine();
 
-        System.out.println("Enter another number: ");
+        String IIP = ("The "+I+" bus:Watch out for "+II+" " +
+                "stuck under the seats and hold onto your hardcover "+III+
+                " in case the driver has to "+IV+" the brakes.");
+        //paragraph 1 out
 
-        String num2 = scan.nextLine();
+        System.out.println("Enter a adjective");
+        I = scan.nextLine();
 
+        System.out.println("Enter a verb ending in ing");
+        II = scan.nextLine();
+        String IIIP = ("Bicycle:Check the weather, because it's "+
+                I+" to hold an umbrella while "+II+".");
+        //paragraph 2 out
 
-        System.out.println("");
+        System.out.println("Enter a verb ");
+        I = scan.nextLine();
 
-        System.out.println("A Strange Animal");
+        System.out.println("Enter a animal ");
+        II = scan.nextLine();
 
-        System.out.println("The "+madeup+" is an animal that has "+col+" fur with "+col2); System.out.println("spots on its tail. An adult "+madeup+" may weigh over "+num); System.out.println("pounds and stand over "+num2+" feet tall.");
-*/
+        System.out.println("Enter a adjective ");
+        III = scan.nextLine();
+
+        String IVP = ("Walk:Don't stop to "+I+" every "+II+" along the way" +
+                " or you'll be "+III+" for school!");
+        //paragraph 3 out
+
+        System.out.println("Enter a noun ");
+        I = scan.nextLine();
+
+        System.out.println("Enter a occupation ");
+        II = scan.nextLine();
+
+        System.out.println("Enter a plural noun ");
+        III = scan.nextLine();
+        //paragraph 4 out
+
+        System.out.println(IP);
+        System.out.println("1. "+IIP);
+        System.out.println("2. "+IIIP);
+        System.out.println("3. "+IVP);
+        IVP = ("Skate-"+I+": Cool, but if the "+II+" catches you doing " +
+                "jumps off the school's front "+III+" , you're getting detention!");
+        System.out.println("4. "+IVP);
+
     }
 }
