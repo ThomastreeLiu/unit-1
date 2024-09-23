@@ -17,7 +17,7 @@ public class inputmadlibs {
 
         String IP = ("There're a lot of "+I+" ways to get to school. " +
                 "Here's a list of the top "+II+".");
-        //introduction end
+        //introduction out
 
 
         System.out.println("Enter a type of building ");
