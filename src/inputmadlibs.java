@@ -75,7 +75,8 @@ public class inputmadlibs {
         System.out.println("3. "+IVP);
         IVP = ("Skate-"+I+": Cool, but if the "+II+" catches you doing " +
                 "jumps off the school's front "+III+" , you're getting detention!");
+        //paragraph 5 out
         System.out.println("4. "+IVP);
-
+    //output finish
     }
 }
