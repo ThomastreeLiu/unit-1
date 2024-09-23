@@ -9,10 +9,10 @@ public class inputmadlibs {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Enter a adjective: ");
+        System.out.println("Enter a adjective. ");
         String I = scan.nextLine();
 
-        System.out.println("Enter a number: ");
+        System.out.println("Enter a number. ");
         String II = scan.nextLine();
 
         String IP = ("There're a lot of "+I+" ways to get to school. " +
@@ -20,16 +20,16 @@ public class inputmadlibs {
         //introduction out
 
 
-        System.out.println("Enter a type of building ");
+        System.out.println("Enter a type of building. ");
         I = scan.nextLine();
 
-        System.out.println("Enter a type of food ");
+        System.out.println("Enter a type of food. ");
         II = scan.nextLine();
 
-        System.out.println("Enter a plural noun ");
+        System.out.println("Enter a plural noun. ");
         String III = scan.nextLine();
 
-        System.out.println("Enter a verb");
+        System.out.println("Enter a verb.");
         String IV = scan.nextLine();
 
         String IIP = ("The "+I+" bus:Watch out for "+II+" " +
@@ -37,35 +37,35 @@ public class inputmadlibs {
                 " in case the driver has to "+IV+" the brakes.");
         //paragraph 1 out
 
-        System.out.println("Enter a adjective");
+        System.out.println("Enter a adjective.");
         I = scan.nextLine();
 
-        System.out.println("Enter a verb ending in ing");
+        System.out.println("Enter a verb ending in ing.");
         II = scan.nextLine();
         String IIIP = ("Bicycle:Check the weather, because it's "+
                 I+" to hold an umbrella while "+II+".");
         //paragraph 2 out
 
-        System.out.println("Enter a verb ");
+        System.out.println("Enter a verb. ");
         I = scan.nextLine();
 
-        System.out.println("Enter a animal ");
+        System.out.println("Enter a animal. ");
         II = scan.nextLine();
 
-        System.out.println("Enter a adjective ");
+        System.out.println("Enter a adjective. ");
         III = scan.nextLine();
 
         String IVP = ("Walk:Don't stop to "+I+" every "+II+" along the way" +
                 " or you'll be "+III+" for school!");
         //paragraph 3 out
 
-        System.out.println("Enter a noun ");
+        System.out.println("Enter a noun. ");
         I = scan.nextLine();
 
-        System.out.println("Enter a occupation ");
+        System.out.println("Enter a occupation. ");
         II = scan.nextLine();
 
-        System.out.println("Enter a plural noun ");
+        System.out.println("Enter a plural noun. ");
         III = scan.nextLine();
         //paragraph 4 out
 
