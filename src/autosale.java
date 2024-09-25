@@ -1,3 +1,7 @@
+//Author:Thomas
+//Name:autosale
+//purpose:make a bill automatically
+
 import java.util.Scanner;
 import java.text.NumberFormat;
 public class autosale {
