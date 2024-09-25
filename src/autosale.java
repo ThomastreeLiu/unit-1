@@ -27,7 +27,6 @@ public class autosale {
         System.out.println(flow+" flower @ $1 = "+currency.format(1*flow));
         System.out.println(pump+" pumpkin @ $2 = "+currency.format(2*pump));
         System.out.println(strw+" soybean @ $3 gold = "+currency.format(3*syb));
-
         int sto = 5*strw+2*egg+1*flow+2*pump+5*syb;
         double tax = sto*0.12;
         double tot =sto+tax;
