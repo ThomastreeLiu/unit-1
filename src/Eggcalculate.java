@@ -1,6 +1,6 @@
 //Author:Thomas
-//Name:Autosale
-//purpose:make a bill automatically
+//Name:Eggcalculate
+//purpose:number the egg
 
 import java.util.Scanner;
 public class Eggcalculate {
