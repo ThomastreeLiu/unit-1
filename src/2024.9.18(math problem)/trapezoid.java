@@ -18,8 +18,7 @@ public class trapezoid {
         double c = scan.nextDouble();
         System.out.println("Now input the d in meters");
         double d = scan.nextDouble();
-        System.out.println("Now input the h in meters");
-        double h =scan.nextDouble();
+        double h = Math.sqrt(Math.pow(c,2)-Math.pow(0.5*(b-a),2));
         double area = (a+b)*h/2;
         double perimeter = a+b+c+d;
         System.out.println("Area of the trapezoid is "+area+" square meters.\n" +
