@@ -1,5 +1,5 @@
 //Author:Thomas
-//Name:autosale
+//Name:Autosale
 //purpose:make a bill automatically
 
 import java.util.Scanner;
