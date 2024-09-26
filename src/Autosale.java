@@ -9,6 +9,7 @@ public class Autosale {
     public static void main (String args []){
         Scanner scan = new Scanner(System.in);
         NumberFormat currency = NumberFormat.getCurrencyInstance();
+
         System.out.println("********************************* \n" +
                 "*    Welcome to My Farm Stall   * \n" +
                 "********************************* ");

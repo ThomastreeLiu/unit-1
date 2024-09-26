@@ -13,6 +13,6 @@ public class Eggcalculate {
         egg = egg%180;
         int carton = egg/12;
         egg = egg%12;
-        System.out.println("That's "+crate+" crate(s), "+carton+" carton(s) ,and "+egg+"(s) left over.");
+        System.out.println("That's "+crate+" crate(s), "+carton+" carton(s) ,and "+egg+" egg(s) left over.");
     }
 }
