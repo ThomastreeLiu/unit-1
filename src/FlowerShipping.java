@@ -11,8 +11,10 @@ public class FlowerShipping {
         int potnum = scan.nextInt();
         int numbox = potnum/9;
         potnum = potnum%9;
+
         int total = numbox;
         String ans = numbox+" Very big Boxes,\n";
+
         numbox = potnum/4;
         potnum = potnum%4;
 
