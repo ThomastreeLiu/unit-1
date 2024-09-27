@@ -21,13 +21,14 @@ public class Quadrant {
         }
 
         else if (x <0) {
-            if (y >0)
+            if (y > 0)
                 System.out.println("This point located at quadrant 2");
             else if (y < 0)
                 System.out.println("This point locates at quadrant 3");
             else
                 System.out.println("This point is not belongs to any quadrant");
         }
+
         else
             System.out.println("This point is not belongs to any quadrant");
 
