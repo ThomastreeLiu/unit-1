@@ -10,6 +10,7 @@ public class Quadrant {
         double x = scan.nextDouble();
         System.out.println("Enter y");
         double y = scan.nextDouble();
+
         if (x > 0) {
             if (y > 0)
                 System.out.println("This point located at quadrant 1.");
@@ -18,6 +19,7 @@ public class Quadrant {
             else
                 System.out.println("This point is not belongs to any quadrant");
         }
+
         else if (x <0) {
             if (y >0)
                 System.out.println("This point located at quadrant 2");
