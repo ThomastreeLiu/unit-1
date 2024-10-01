@@ -38,6 +38,9 @@ public class Cashregister {
         if (dimes > 0) {
             System.out.println("Dimes:"+dimes);
         }
+        if (nickel > 0){
+            System.out.println("Nickels:"+nickel);
+        }
         if (cash > 0){
             System.out.println("Pennies:"+cash);
         }
