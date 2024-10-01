@@ -20,7 +20,7 @@ public class Quadrant {
                 System.out.println("This point is not belongs to any quadrant");
         }
 
-        else if (x <0) {
+        else if (x < 0) {
             if (y > 0)
                 System.out.println("This point located at quadrant 2");
             else if (y < 0)
