@@ -20,6 +20,7 @@ public class Cashregister {
             System.out.println("$5 bills:"+cash/500);
             cash = cash%500;
         }
+        /////
         int twoonies = cash/ ;
         cash = cash% ;
         int loonies = cash
