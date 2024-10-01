@@ -28,7 +28,7 @@ public class Cashregister {
 
         int quarters = cash/25;
         cash = cash % 25;
-        int dimes = cash/25;
+        int dimes = cash/10;
         cash = cash%10;
         int nickel = cash/5;
 
