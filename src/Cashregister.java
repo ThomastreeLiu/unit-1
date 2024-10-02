@@ -53,7 +53,6 @@ public class Cashregister {
             System.out.println("Pennies:"+cash);
         }
 
-
     }
 
 }
