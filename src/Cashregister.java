@@ -21,17 +21,22 @@ public class Cashregister {
             cash = cash % 500;
         }
 
-        //int twoonies = cash/ ;
-        //cash = cash% ;
-        //int loonies = cash/ ;
-        //cash = cash% ;
-
+        int twoonies = cash/200;
+        cash = cash%200;
+        int loonies = cash/100;
+        cash = cash%100;
         int quarters = cash/25;
         cash = cash % 25;
         int dimes = cash/10;
         cash = cash%10;
         int nickel = cash/5;
 
+        if (twoonies > 0){
+            System.out.println("Twoonies:"+twoonies);
+        }
+        if (loonies > 0){
+            System.out.println("Loonies:"+loonies);
+        }
         if (quarters > 0) {
             System.out.println("Quarters:" + quarters);
         }
