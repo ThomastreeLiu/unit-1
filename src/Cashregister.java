@@ -13,10 +13,12 @@ public class Cashregister {
         if (cash >= 2000) {
             System.out.println("$20 bills: " + cash/2000);
             cash = cash % 2000;
-        } else if (cash >= 1000) {
+        }
+        if (cash >= 1000) {
             System.out.println("$10 bills:" + cash/1000);
             cash = cash % 1000;
-        } else if (cash >= 500) {
+        }
+        if (cash >= 500) {
             System.out.println("$5 bills:" + cash/500);
             cash = cash % 500;
         }
@@ -30,6 +32,7 @@ public class Cashregister {
         int dimes = cash/10;
         cash = cash%10;
         int nickel = cash/5;
+        cash = cash%5;
 
         if (twoonies > 0){
             System.out.println("Twoonies:"+twoonies);
