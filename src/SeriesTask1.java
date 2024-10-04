@@ -28,6 +28,5 @@ public class SeriesTask1 {
         for (int i=5;i<71;i=i+5){
             System.out.print(i+" ");
         }
-        System.out.println(" ");
     }
 }
