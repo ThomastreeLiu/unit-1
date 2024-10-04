@@ -28,5 +28,31 @@ public class SeriesTask1 {
         for (int i=5;i<71;i=i+5){
             System.out.print(i+" ");
         }
+
+        System.out.println("\n\n###############################\n");
+
+        for (int i=0;i<12;i++){
+            System.out.print("<> ");
+        }
+        System.out.println(" \n");
+
+        for (int i=10;i>0;i--){
+            System.out.print(i+", ");
+        }
+        System.out.println("0...BLAST OFF!\n");
+
+        for (int i=0;i<26;i++){
+            System.out.print(i+" ");
+        }
+        System.out.println(" \n");
+
+        for (int e=0;e<9;e++){
+            System.out.print("1 0 ");
+        }
+        System.out.println(" \n");
+
+        for (int i=1;i<9;i++){
+            System.out.print(i+"/"+(i+1)+" ");
+        }
     }
 }
