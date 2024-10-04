@@ -46,7 +46,7 @@ public class SeriesTask1 {
         }
         System.out.println(" \n");
 
-        for (int e=0;e<9;e++){
+        for (int i=0;i<9;i++){
             System.out.print("1 0 ");
         }
         System.out.println(" \n");
