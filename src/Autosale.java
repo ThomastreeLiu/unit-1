@@ -2,13 +2,14 @@
 //Name:Autosale
 //purpose:make a bill automatically
 
+import java.util.Locale;
 import java.util.Scanner;
 import java.text.NumberFormat;
 
 public class Autosale {
     public static void main (String args []){
         Scanner scan = new Scanner(System.in);
-        NumberFormat currency = NumberFormat.getCurrencyInstance();
+        NumberFormat currency = NumberFormat.getCurrencyInstance(Locale.CANADA);
 
         System.out.println("********************************* \n" +
                 "*    Welcome to My Farm Stall   * \n" +
